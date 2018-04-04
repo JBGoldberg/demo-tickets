@@ -28,14 +28,13 @@ With this choices I have the complete range of requested languages (HTML, CSS an
 
 * The system is structured using MVC pattern. The models are isolated in the /models folder that includes the ticket and the employee models.
 
-* All the communication with the back-end is done using services. I created 2 of them: one to deal with tickets, named TicketService and another named EmployeeService. Their concern is the communication with API and they live in /src/app folder. Have both are probably a overkill for a small system like this one but I decided to go ahead with this for clarity purposes.
+* All the communication with the back-end is done using services. I created 2 of them: one to deal with tickets, named TicketService and another named EmployeeService. Their concern is the communication with API and they live in /src/app/services folder. Have both are probably a overkill for a small system like this one but I decided to go ahead with this for clarity purposes.
 
 * The view is controlled directly from the Angular components and their (wonderful) css isolation.
 
 ### Additions / Tradeoffs
 
 * Obviously, the Employee model is needed because one of the requirements is to log in to edit the tickets. For deal with the registration of employees, I also included a tiny Admin interface at http://localhost:4200/admin.
-
 
 ### Technical Decisions
 

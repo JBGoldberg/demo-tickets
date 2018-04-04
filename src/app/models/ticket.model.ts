@@ -7,4 +7,6 @@ export class Ticket {
   public message: string;
   public type: number;
   public urgency; number;
+  public status: number;
+  public isCompleted: boolean;
 }
