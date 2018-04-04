@@ -1,27 +1,51 @@
-# DemoTickets
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+# demo-tickets
 
-## Development server
+## Context
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a system created to propose a solution for a challenge made from [Byrd](http://getbyrd.com). The original task can be found at /challenge folder.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Proposal Solution
 
-## Build
+### Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+To run this project you will need globally installed [Node.js](https://nodejs.org) and their package manager called *npm*. I tested the system for node version 6.9.5 and npm version 5.6.0.
 
-## Running unit tests
+It also needed [angular-cli](https://cli.angular.io/) version 1.6.8
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Language and Tools
 
-## Running end-to-end tests
+As this project is a Front-End only and the proposition is also about Typescript, I choose Angular to get ahead with it.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+In this context, make sense use the best tools available to accelerate the development and in Angular, the *must have* is angular-cli. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
-## Further help
+I have 2 diferent reasons to choose Boostrap 4 to improve the design. The most obvious is that Byrd is using it in their tech stack and the other is that it is a very popular framework. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+With this choices I have the complete range of requested languages (HTML, CSS and Javascript,Typescript) covered.
+
+### Architecture
+
+### Additions / Tradeoffs
+
+### Technical Decisions
+
+### Limitations
+
+* Since I am negotiating a Front-End position with them, I decided to not develop the Back-End of the system, for now. It can be done in the future, for demonstration purposes.
+
+## Running and Testing
+
+### How to run the code
+
+The code can be run using the development server. To do this, first you need to install the libraries using `npm install` and then `ng test`will make the trick.
+
+The website will be acessible at `http://localhost:4200/`.
+
+### How to run unit tests
+
+#### Unit tests
+As any angular-cli projectsm this one uses [Karma](https://karma-runner.github.io) as testing mechanism. You can just run `ng test` to execute the tests.
+
+#### end-to-end tests
+Because e2e tests are very time consumming to develop and not even mentioned in original proposition, I made the option to don't do it. It can be done, if needed.
